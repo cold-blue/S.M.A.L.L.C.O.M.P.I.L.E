@@ -1,0 +1,14 @@
+
+1 ini 0
+2 lit 0
+3 sto 0
+4 lod 0
+5 lod 0
+6 lit 0
+7 opr 0
+8 sto 0
+9 sto 0
+10 lod 0
+11 opr 0
+12 opr 0
+13 opr 0

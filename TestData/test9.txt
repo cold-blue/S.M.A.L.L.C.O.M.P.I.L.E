@@ -1,0 +1,7 @@
+const a = 1;
+var i,j;
+begin
+  i:=1;
+  j:=i++;
+  write(j);
+end.

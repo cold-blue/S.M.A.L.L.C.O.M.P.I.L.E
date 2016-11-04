@@ -1,0 +1,17 @@
+const a = 4, b = 7;
+var w, x, y, z;
+begin
+   w := 1;
+   do 
+     begin
+   	    w++; 
+   	    if w == a then
+   	       break
+   	    else
+   	       continue
+   	    end;
+     end
+   while w < b;
+   write(w);
+end.
+   

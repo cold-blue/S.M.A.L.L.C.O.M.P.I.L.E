@@ -1,0 +1,14 @@
+const a = 4, b = 7;
+var w, x, y, z;
+begin
+   case ODD a AND ODD b OR NOT ODD a of
+      0:
+      write(0)
+      1:
+      write(1)
+      else:
+      write(6)
+   end;
+   #exit(0);
+   write(11);
+end.

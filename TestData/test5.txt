@@ -1,0 +1,10 @@
+const a = 4, b = 7;
+var w, x, y, z;
+begin
+   x := 1;
+   w := x++;
+   x := a / b;
+   y := b / a;
+   z := b % a;
+   write(w, x, y, z);
+end.

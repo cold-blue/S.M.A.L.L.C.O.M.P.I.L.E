@@ -1,0 +1,14 @@
+const a := 16, b = 12; # change = to :=
+var n, m, c;
+begin
+    n := a;
+    m := b;
+    while m != 0
+        do
+            begin
+            c = n % m; # change := to =
+            n := m;
+            m := c;
+            end;
+    write(n);
+end.

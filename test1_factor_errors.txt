@@ -1,0 +1,10 @@
+const a=25,b=10;
+var x,y;
+begin
+  x:=a;
+  y:=x,5;
+end.
+
+
+
+

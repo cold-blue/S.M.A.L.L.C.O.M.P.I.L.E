@@ -1,0 +1,16 @@
+var i, j, t;
+begin
+   for (i := 3; i <= 100; i ++)
+    begin
+      t := 1;
+      for (j := 2; j <= i/2 AND j <= 10; j ++)
+      	if i % j == 0 then
+      	 begin
+      	  t := 0;
+      	  break
+      	 end
+      	end;
+      if t == 1 then write(i) end;
+    end;
+end.
+      

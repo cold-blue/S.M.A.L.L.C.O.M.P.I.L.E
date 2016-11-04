@@ -1,0 +1,22 @@
+const a = 13, b = 7;
+var x, y;
+procedure addPro;
+const d = 9, c = 4;
+var w, z;
+    procedure subPro;
+        var m;
+        begin
+            m := a - b;
+            write(m); # first one
+            call addPro;
+        end;
+    begin
+        z := 25;
+for (w := 0; w < a + d; w++)
+        begin
+            ++z;
+        end;
+        #exit(0);
+        write(a, d, c, z);
+    end;
+call subPro.
